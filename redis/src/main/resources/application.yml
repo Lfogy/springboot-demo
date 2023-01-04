@@ -1,0 +1,7 @@
+spring:
+  redis:
+    host: 119.3.146.60
+    password: sdw6934@
+    port: 6379
+server:
+  port: 8080

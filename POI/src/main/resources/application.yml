@@ -1,0 +1,22 @@
+server:
+  port: 8088
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/poi_test?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+    username: root
+    password: mysql
+# 日志配置
+logging:
+  level:
+    com.ligong.poi.mapper: debug
+
+# MyBatis配置
+mybatis:
+  # 搜索指定包别名
+  typeAliasesPackage: com.ligong.poi.domain
+  # 配置mapper的扫描，找到所有的mapper.xml映射文件
+  mapperLocations: classpath*:mapper/*Mapper.xml
+#  # 加载全局的配置文件
+#  configLocation: classpath:mybatis/mybatis-config.xml
+
