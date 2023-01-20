@@ -18,6 +18,8 @@
         <option value="$PROJECT_DIR$/spring-session-reiis/pom.xml" />
         <option value="$PROJECT_DIR$/spring-vue/pom.xml" />
         <option value="$PROJECT_DIR$/spring-security/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-authorize/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-dynamic-authorize/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
