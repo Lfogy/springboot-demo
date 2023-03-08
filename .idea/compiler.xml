@@ -7,19 +7,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-security-authorize" />
+        <module name="oauth-client-github" />
+        <module name="spring-minio" />
         <module name="quartz" />
         <module name="spring-session-reiis" />
-        <module name="spring-security" />
         <module name="POI" />
-        <module name="spring-aop" />
+        <module name="springboot-test" />
         <module name="blog" />
+        <module name="spring-security-authorized-server" />
         <module name="redis" />
-        <module name="spring-vue" />
         <module name="spring-security-dynamic-authorize" />
+        <module name="spring-security-authorize" />
+        <module name="spring-security-csrf-attack" />
+        <module name="spring-mongo" />
+        <module name="spring-security" />
+        <module name="spring-aop" />
+        <module name="spring-vue" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="spring-actuator" target="8" />
+      <module name="spring-security-authorization-server" target="8" />
       <module name="spring-session" target="1.8" />
       <module name="springsecurity" target="1.8" />
     </bytecodeTargetLevel>
@@ -28,15 +36,23 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="POI" options="-parameters" />
       <module name="blog" options="-parameters" />
+      <module name="oauth-client-github" options="-parameters" />
       <module name="quartz" options="-parameters" />
       <module name="redis" options="-parameters" />
+      <module name="spring-actuator" options="-parameters" />
       <module name="spring-aop" options="-parameters" />
+      <module name="spring-minio" options="-parameters" />
+      <module name="spring-mongo" options="-parameters" />
       <module name="spring-security" options="-parameters" />
+      <module name="spring-security-authorization-server" options="-parameters" />
       <module name="spring-security-authorize" options="-parameters" />
+      <module name="spring-security-authorized-server" options="-parameters" />
+      <module name="spring-security-csrf-attack" options="-parameters" />
       <module name="spring-security-dynamic-authorize" options="-parameters" />
       <module name="spring-session" options="-parameters" />
       <module name="spring-session-reiis" options="-parameters" />
       <module name="spring-vue" options="-parameters" />
+      <module name="springboot-test" options="-parameters" />
       <module name="springsecurity" options="-parameters" />
     </option>
   </component>

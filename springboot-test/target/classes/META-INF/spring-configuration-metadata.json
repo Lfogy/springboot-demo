@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "user",
+      "type": "com.ligong.test.pojo.User",
+      "sourceType": "com.ligong.test.pojo.User"
+    }
+  ],
+  "properties": [
+    {
+      "name": "user.address",
+      "type": "java.lang.String",
+      "sourceType": "com.ligong.test.pojo.User"
+    },
+    {
+      "name": "user.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ligong.test.pojo.User"
+    },
+    {
+      "name": "user.username",
+      "type": "java.lang.String",
+      "sourceType": "com.ligong.test.pojo.User"
+    }
+  ],
+  "hints": []
+}

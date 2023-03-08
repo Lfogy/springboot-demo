@@ -20,10 +20,16 @@
         <option value="$PROJECT_DIR$/spring-security/pom.xml" />
         <option value="$PROJECT_DIR$/spring-security-authorize/pom.xml" />
         <option value="$PROJECT_DIR$/spring-security-dynamic-authorize/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-csrf-attack/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-authorization-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-authorized-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-minio/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mongo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/spring-security-authorization-server/pom.xml" />
         <option value="$PROJECT_DIR$/spring-session/pom.xml" />
       </set>
     </option>

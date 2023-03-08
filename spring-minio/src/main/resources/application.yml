@@ -1,0 +1,7 @@
+server:
+  port: 8090
+
+minio:
+  ip: http://192.168.139.128:9090/
+  username: minioadmin
+  password: minioadmin
